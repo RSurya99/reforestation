@@ -28,7 +28,7 @@ jobs:
           git config --local user.email "rafli.rfsp@gmail.com"
           git config --local user.name "rsurya99"
           git add -A
-          git commit -m "What do you want to see huh? 👀"
+          git commit -m "There's nothing in here"
 
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.5.0
