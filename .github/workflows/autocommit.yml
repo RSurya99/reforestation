@@ -25,7 +25,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --global --add safe.directory /__w/reforestation/reforestation
+          git config --global --add safe.directory /github/workspace
           git config --local user.email "rafli.rfsp@gmail.com"
           git config --local user.name "rsurya99"
           git add -A
