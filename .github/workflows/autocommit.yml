@@ -1,4 +1,5 @@
 name: Auto commit
+run: git config --global --add safe.directory /__w/reforestation/reforestation
 
 on:
 
